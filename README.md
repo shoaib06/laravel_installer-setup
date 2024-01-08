@@ -10,12 +10,13 @@ Now add composer to your system PATH so you can run laravel command. Open your /
 
 Steps:
 
-Open .bashrc with nano:
+1. Open .bashrc with nano:
 
  nano /home/$USER/.bashrc
-Add this line export PATH=$HOME/.composer/vendor/bin:$PATH.
 
-UPDATE: On Ubuntu 18.04 the line should be export PATH=$HOME/.config/composer/vendor/bin:$PATH
-Source the file with source /home/$USER/.bashrc
+2. Add this line export PATH=$HOME/.composer/vendor/bin:$PATH.
+
+    UPDATE: On Ubuntu 18.04 the line should be export PATH=$HOME/.config/composer/vendor/bin:$PATH
+3. Source the file with source /home/$USER/.bashrc
 
 Now run laravel -version from terminal to ensure all went well. At this point you can now run the laravel command to create applications.
